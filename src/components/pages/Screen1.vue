@@ -1,0 +1,215 @@
+<template>
+  <NucGridPage v-bind:gap="{'col':0,'row':0}" v-bind:rows="[1]"
+    v-bind:schema="{'r0-c0':{'col':0,'row':0,'showIn':['xs','sm','md','lg'],'colSpan':1,'rowSpan':1}}"
+    v-bind:columns="[1]" overflow="auto" v-bind:designMode="false" v-bind:minNsLimit="1330"
+    v-bind:style="{'background':'#FFFFFF','paddingTop':'0px','paddingLeft':'0px','paddingRight':'0px','paddingBottom':'0px'}">
+    <NucGridCell v-bind:wrap="true" v-bind:reverse="false" overflow="hidden" direction="column"
+      v-bind:showInDevice="['xs','sm','md','lg']" verticalAlignment="top" horizontalAlignment="left"
+      id="f155c1f2-76a6-474e-a5af-de687257ca06" v-bind:col="0" v-bind:row="0" v-bind:colSpan="1" v-bind:rowSpan="1"
+      v-bind:marginTop="0" v-bind:marginLeft="0" v-bind:marginRight="0" v-bind:marginBottom="0"
+      v-bind:style="{'height':'auto','background':'transparent','paddingTop':'0px','borderColor':'','borderStyle':'solid','borderWidth':'0px','paddingLeft':'0px','borderRadius':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'1px','borderTopRightRadius':'1px','borderBottomLeftRadius':'1px','borderBottomRightRadius':'1px'}"
+      slot="r0-c0" area="r0-c0">
+      <NucGroupElement top="-0.11778563015312132%" left="0%" v-bind:snapX="false" v-bind:snapY="true"
+        v-bind:isLock="false" bgColor="" position="absolute" v-bind:visibility="true" borderWidth="1px" ncTooltipText=""
+        nucalScaleWidth="0.99NS" nucalScaleHeight="0.986NS" id="8bf6cebd-be16-4e96-868f-30813661363e"
+        v-bind:style="{'color':'#FFFFFF','width':'1330px','height':'807.5px','zIndex':2,'fontSize':'10.6875px','maxWidth':'','minWidth':'','tabIndex':'-0.7124999999999999','boxShadow':'0 0 0 0 rgba(0,0,0,0), inset 0 0 0 0 rgba(0,0,0,0)','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#e6e6e6','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.890625','marginLeft':'0px','paddingTop':'0px','textShadow':'','borderColor':'#000000','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0.95px','textDecoration':'none','borderLeftWidth':'0.95px','borderRightWidth':'0.95px','borderBottomWidth':'0.95px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+        <NucGroupElement top="0%" left="0%" v-bind:snapX="false" v-bind:snapY="false" v-bind:isLock="false" bgColor=""
+          position="absolute" borderWidth="0px" ncTooltipText="" id="40ef0e09-7e01-4f68-9d2f-20583c88a844"
+          v-bind:style="{'color':'#FFFFFF','width':'1330px','height':'85.5px','zIndex':4,'fontSize':'10.6875px','maxWidth':'','minWidth':'','tabIndex':'-0.7124999999999999','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'#FFFFFF','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.890625','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+          <WIconButton tag="button" top="33.35069444444444%" icon="" left="2.508047210300429%" v-bind:pill="false"
+            size="md" text="NUCAL " type="button" v-bind:block="false" color="#05153f" v-bind:snapX="false"
+            v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="secondary" fontSize="30px"
+            position="absolute" fontStyle="normal" iconColor="#165AE7" v-bind:isEnabled="true" background="#FFFFFF"
+            fontFamily="OpenSans-Bold,Open Sans" fontWeight="400" layoutMode="left-to-right" lineHeight="1.2"
+            textShadow="" borderColor="" borderWidth="0px" iconFontSize="24px" ncTypography="custom"
+            iconAlignment="center" iconFontStyle="default" ncTooltipText="" verticalWidth=""
+            iconFontFamily="font-awesome"
+            v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+            textDecoration="none" verticalHeight="" horizontalWidth="" nucalScaleWidth="0.114NS" horizontalHeight=""
+            ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF" nucalScaleHeight="0.08NS"
+            verticalMinWidth="40px" verticalMinHeight="60px" horizontalMinWidth="96px" ncClickBorderColor="#4285f4"
+            ncDisableFontColor="#FFFFFF" ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4"
+            buttonTextAlignment="center" horizontalMinHeight="30px" ncDisableBorderColor="#4285f4"
+            ncClickBackgroundColor="#4285f4" ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4"
+            ncDisableBackgroundColor="#4285f4" id="a20fa852-18a1-4386-a792-0734f607ced2"
+            v-bind:style="{'width':'124.44999999999999px','height':'28.5px','zIndex':6,'maxWidth':'','minWidth':'1.9px','tabIndex':'0px','boxShadow':'','marginTop':'','maxHeight':'','marginLeft':'','paddingTop':'','visibility':'visible','borderStyle':'solid','marginRight':'','paddingLeft':'0px','marginBottom':'','paddingRight':'11.399999999999999px','hasDesignMode':true,'paddingBottom':'','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'2.8499999999999996px','borderTopRightRadius':'2.8499999999999996px','borderBottomLeftRadius':'2.8499999999999996px','borderBottomRightRadius':'2.8499999999999996px'}"/>
+          <NucGroupElement top="27.77777777777778%" left="28.963251072961373%" v-bind:isLock="false" bgColor=""
+            position="absolute" borderWidth="0px" ncTooltipText="" id="f43769b2-bba7-49b6-b2a1-3374284071c2"
+            v-bind:style="{'color':'#FFFFFF','width':'558.6px','height':'38.949999999999996px','zIndex':7,'fontSize':'14.25px','maxWidth':'','minWidth':'','tabIndex':'-0.95','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'center','background':'','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'1.1875','marginLeft':'0px','paddingTop':'','textShadow':'','visibility':'visible','borderColor':'#767676','borderStyle':'solid','marginRight':'0px','paddingLeft':'','marginBottom':'0px','paddingRight':'','paddingBottom':'','borderTopWidth':'0px','textDecoration':'none','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}">
+            <TwSimpleDropdown top="7.142857142857143%" left="0.5104618084173025%" v-bind:snapX="false"
+              v-bind:snapY="false" v-bind:options="[]" itemHref="#" position="absolute" v-bind:selected="[]"
+              dataModel="" itemWidth="tw-w-56" itemRadius="tw-rounded-none" itemShadow="tw-shadow-lg"
+              buttonColor="tw-bg-white" buttonLabel="Solutions" buttonWidth="tw-w-full" cardDisplay="tw-inline-block"
+              dataLoading="" itemBgColor="tw-bg-white" itemDisplay="tw-block" buttonShadow="tw-shadow-sm"
+              itemFontSize="tw-text-sm" buttonDisplay="tw-inline-flex" buttonJustify="tw-justify-center"
+              dataModelType="" itemTextColor="tw-text-gray-700" ncTooltipText="" buttonFontSize="tw-text-sm"
+              itemFontWeight="tw-font-normal"
+              v-bind:nucalDataModel="{'type':'NSW','isList':true,'update':{'dataModel':'dataModel'},'dynamic':true,'dataModel':'','structure':[{'type':'','update':{'type':'dataModelType','dataModel':'dataModel'},'propName':'options','dataModel':'','displayName':'Value'}]}"
+              buttonIconWidth="tw-w-5" buttonTextColor="tw-text-gray-700" itemShadowColor="tw-shadow-indigo-500"
+              nucalScaleWidth="" buttonFontWeight="tw-font-medium" buttonHoverColor="tw-bg-gray-50"
+              buttonIconHeight="tw-h-5" nucalScaleHeight="0.04NS" allTextItemsAlign="tw-text-left"
+              buttonBorderColor="tw-border-gray-300" buttonBorderWidth="tw-border-0"
+              buttonShadowColor="tw-shadow-indigo-500" buttonBorderRadius="tw-rounded-none"
+              id="c65b496c-0e14-4819-b2d2-321910160ec4"
+              v-bind:style="{'zIndex':9,'maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'undefinedpx','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px'}"/>
+            <TwSimpleDropdown top="7.142857142857143%" left="21.53244888735278%" v-bind:snapX="false"
+              v-bind:snapY="false" v-bind:options="[]" itemHref="#" position="absolute" v-bind:selected="[]"
+              dataModel="" itemWidth="tw-w-56" itemRadius="tw-rounded-none" itemShadow="tw-shadow-lg"
+              buttonColor="tw-bg-white" buttonLabel="Features" buttonWidth="tw-w-full" cardDisplay="tw-inline-block"
+              dataLoading="" itemBgColor="tw-bg-white" itemDisplay="tw-block" buttonShadow="tw-shadow-sm"
+              itemFontSize="tw-text-sm" buttonDisplay="tw-inline-flex" buttonJustify="tw-justify-center"
+              dataModelType="" itemTextColor="tw-text-gray-700" ncTooltipText="" buttonFontSize="tw-text-sm"
+              itemFontWeight="tw-font-normal"
+              v-bind:nucalDataModel="{'type':'NSW','isList':true,'update':{'dataModel':'dataModel'},'dynamic':true,'dataModel':'','structure':[{'type':'','update':{'type':'dataModelType','dataModel':'dataModel'},'propName':'options','dataModel':'','displayName':'Value'}]}"
+              buttonIconWidth="tw-w-5" buttonTextColor="tw-text-gray-700" itemShadowColor="tw-shadow-indigo-500"
+              nucalScaleWidth="0.081NS" buttonFontWeight="tw-font-medium" buttonHoverColor="tw-bg-gray-50"
+              buttonIconHeight="tw-h-5" nucalScaleHeight="0.04NS" allTextItemsAlign="tw-text-left"
+              buttonBorderColor="tw-border-gray-300" buttonBorderWidth="tw-border-0"
+              buttonShadowColor="tw-shadow-indigo-500" buttonBorderRadius="tw-rounded-none"
+              id="c80ddfd2-5478-4454-89f6-a26e61d4f234"
+              v-bind:style="{'zIndex':10,'maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px'}"/>
+            <TwSimpleDropdown top="6.436011904761905%" left="41.84723366921011%" v-bind:snapX="false"
+              v-bind:snapY="false" v-bind:options="[]" itemHref="#" position="absolute" v-bind:selected="[]"
+              dataModel="" itemWidth="tw-w-56" itemRadius="tw-rounded-none" itemShadow="tw-shadow-lg"
+              buttonColor="tw-bg-white" buttonLabel="Plans" buttonWidth="tw-w-full" cardDisplay="tw-inline-block"
+              dataLoading="" itemBgColor="tw-bg-white" itemDisplay="tw-block" buttonShadow="tw-shadow-sm"
+              itemFontSize="tw-text-sm" buttonDisplay="tw-inline-flex" buttonJustify="tw-justify-center"
+              dataModelType="" itemTextColor="tw-text-gray-700" ncTooltipText="" buttonFontSize="tw-text-sm"
+              itemFontWeight="tw-font-normal"
+              v-bind:nucalDataModel="{'type':'NSW','isList':true,'update':{'dataModel':'dataModel'},'dynamic':true,'dataModel':'','structure':[{'type':'','update':{'type':'dataModelType','dataModel':'dataModel'},'propName':'options','dataModel':'','displayName':'Value'}]}"
+              buttonIconWidth="tw-w-5" buttonTextColor="tw-text-gray-700" itemShadowColor="tw-shadow-indigo-500"
+              nucalScaleWidth="0.077NS" buttonFontWeight="tw-font-medium" buttonHoverColor="tw-bg-gray-50"
+              buttonIconHeight="tw-h-5" nucalScaleHeight="0.04NS" allTextItemsAlign="tw-text-left"
+              buttonBorderColor="tw-border-gray-300" buttonBorderWidth="tw-border-0"
+              buttonShadowColor="tw-shadow-indigo-500" buttonBorderRadius="tw-rounded-none"
+              id="a9294fae-dbb1-46ce-b9b2-69c389a9547b"
+              v-bind:style="{'width':'95.94999999999999px','height':'34.199999999999996px','zIndex':11,'maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px'}"/>
+            <TwSimpleDropdown top="6.919642857142857%" left="60.26639725626778%" v-bind:snapX="false"
+              v-bind:snapY="false" v-bind:options="[]" itemHref="#" position="absolute" v-bind:selected="[]"
+              dataModel="" itemWidth="tw-w-56" itemRadius="tw-rounded-none" itemShadow="tw-shadow-lg"
+              buttonColor="tw-bg-white" buttonLabel="Pricing" buttonWidth="tw-w-full" cardDisplay="tw-inline-block"
+              dataLoading="" itemBgColor="tw-bg-white" itemDisplay="tw-block" buttonShadow="tw-shadow-sm"
+              itemFontSize="tw-text-sm" buttonDisplay="tw-inline-flex" buttonJustify="tw-justify-center"
+              dataModelType="" itemTextColor="tw-text-gray-700" ncTooltipText="" buttonFontSize="tw-text-sm"
+              itemFontWeight="tw-font-normal"
+              v-bind:nucalDataModel="{'type':'NSW','isList':true,'update':{'dataModel':'dataModel'},'dynamic':true,'dataModel':'','structure':[{'type':'','update':{'type':'dataModelType','dataModel':'dataModel'},'propName':'options','dataModel':'','displayName':'Value'}]}"
+              buttonIconWidth="tw-w-5" buttonTextColor="tw-text-gray-700" itemShadowColor="tw-shadow-indigo-500"
+              nucalScaleWidth="0.077NS" buttonFontWeight="tw-font-medium" buttonHoverColor="tw-bg-gray-50"
+              buttonIconHeight="tw-h-5" nucalScaleHeight="0.04NS" allTextItemsAlign="tw-text-left"
+              buttonBorderColor="tw-border-gray-300" buttonBorderWidth="tw-border-0"
+              buttonShadowColor="tw-shadow-indigo-500" buttonBorderRadius="tw-rounded-none"
+              id="df13bd8e-3a60-4ace-8c69-f3e71a0ebc73"
+              v-bind:style="{'zIndex':12,'maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px'}"/>
+            <TwSimpleDropdown top="6.7336309523809526%" left="78.53401749395157%" v-bind:snapX="false"
+              v-bind:snapY="false" v-bind:options="[]" itemHref="#" position="absolute" v-bind:selected="[]"
+              dataModel="" itemWidth="tw-w-56" itemRadius="tw-rounded-none" itemShadow="tw-shadow-lg"
+              buttonColor="tw-bg-white" buttonLabel="Resources" buttonWidth="tw-w-full" cardDisplay="tw-inline-block"
+              dataLoading="" itemBgColor="tw-bg-white" itemDisplay="tw-block" buttonShadow="tw-shadow-sm"
+              itemFontSize="tw-text-sm" buttonDisplay="tw-inline-flex" buttonJustify="tw-justify-center"
+              dataModelType="" itemTextColor="tw-text-gray-700" ncTooltipText="" buttonFontSize="tw-text-sm"
+              itemFontWeight="tw-font-normal"
+              v-bind:nucalDataModel="{'type':'NSW','isList':true,'update':{'dataModel':'dataModel'},'dynamic':true,'dataModel':'','structure':[{'type':'','update':{'type':'dataModelType','dataModel':'dataModel'},'propName':'options','dataModel':'','displayName':'Value'}]}"
+              buttonIconWidth="tw-w-5" buttonTextColor="tw-text-gray-700" itemShadowColor="tw-shadow-indigo-500"
+              nucalScaleWidth="0.091NS" buttonFontWeight="tw-font-medium" buttonHoverColor="tw-bg-gray-50"
+              buttonIconHeight="tw-h-5" nucalScaleHeight="0.04NS" allTextItemsAlign="tw-text-left"
+              buttonBorderColor="tw-border-gray-300" buttonBorderWidth="tw-border-0"
+              buttonShadowColor="tw-shadow-indigo-500" buttonBorderRadius="tw-rounded-none"
+              id="10ce0abf-1e99-4f64-b9d2-d0a416bd0491"
+              v-bind:style="{'zIndex':13,'maxWidth':'','minWidth':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px'}"/>
+          </NucGroupElement>
+        </NucGroupElement>
+        <WImage top="18.191701061320753%" left="65.6372943490701%" v-bind:blank="false" v-bind:snapX="false"
+          v-bind:snapY="false" v-bind:rounded="false" stretch="none"
+          imageUrl="https://images.ctfassets.net/rz1oowkt5gyp/5QIzYxue6b7raOnVFtMyQs/113acb8633ee8f0c9cb305d3a228823c/hero.png?w=1200&amp;fm=webp"
+          position="absolute" v-bind:isEnabled="true" v-bind:thumbnail="false" blankColor="black"
+          v-bind:aspectRatio="true" dataLoading="static" ncTooltipText="Please write a text to display in tooltip..."
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','update':{'type':'dataModelForDynamicType'},'propName':'imageUrl','displayName':'Value'}]}"
+          nucalScaleWidth="0.231NS" nucalScaleHeight="0.461NS" ncClickBorderColor="black" ncHoverBorderColor="black"
+          dataModelForDynamicType="string" id="4ed783ac-c162-485e-a25b-1185e0bb27be"
+          v-bind:style="{'width':'276.45px','height':'375.48749999999995px','zIndex':5,'maxWidth':'','minWidth':'','boxShadow':'','marginTop':'0px','maxHeight':'','minHeight':'','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','borderColor':'#4B74FF','borderStyle':'solid','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','borderTopWidth':'0px','borderLeftWidth':'0px','borderRightWidth':'0px','borderBottomWidth':'0px','borderTopLeftRadius':'0px','borderTopRightRadius':'0px','borderBottomLeftRadius':'0px','borderBottomRightRadius':'0px'}"/>
+        <WEmailInput id="11f377f9-eeb8-4692-a7b9-d05ab02fd53e" top="40.094339622641506%" v-bind:lazy="false"
+          left="13.501430615164521%" size="md" text="" v-bind:trim="false" v-bind:snapX="false" v-bind:snapY="false"
+          v-bind:noWheel="false" v-bind:disabled="false" position="absolute" v-bind:readonly="false"
+          v-bind:required="false" wordList="" v-bind:autofocus="false" v-bind:plaintext="false" background=""
+          ariaInvalid="false" v-bind:debounceVal="0" ncInputType="email" placeholder="Email" v-bind:previewMode="true"
+          autocomplete="" ncTypography="custom" v-bind:lazyFormatter="false" ncTooltipText=""
+          v-bind:isWordListOpen="false"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':true,'structure':[{'type':'string','ncKey':'type','ncType':{'ncInputType':'number'},'ncValue':'number','propName':'text','displayName':'Value','nsDefaultValue':'string'}]}"
+          v-bind:isNumberConvert="false" nucalScaleWidth="0.229NS" ncClickFontColor="#434855" ncFocusFontColor="#434855"
+          ncHoverFontColor="#434855" ncMaxNumberValue="100" ncMinNumberValue="0" nucalScaleHeight="0.051NS"
+          ncClickBorderColor="#000000" ncDisableFontColor="#434855" ncFocusBorderColor="#000000"
+          ncHoverBorderColor="#000000" ncDisableBorderColor="#000000" formatterFunctionName=""
+          ncClickBackgroundColor="#ffffff" ncFocusBackgroundColor="#ffffff" ncHoverBackgroundColor="#ffffff"
+          ncDisableBackgroundColor="#ffffff"
+          v-bind:style="{'color':'','width':'161.5px','height':'30.4px','zIndex':6,'fontSize':'12.825px','maxWidth':'','minWidth':'112.57499999999999px','boxShadow':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.7124999999999999','marginLeft':'0px','paddingTop':'0px','visibility':'visible','borderColor':'#D1D1D6','borderStyle':'solid','marginRight':'0px','paddingLeft':'9.5px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WButton tag="button" top="40.2122641509434%" left="26.069608369098713%" v-bind:pill="false" size="md"
+          text="Sign up - its free" type="button" v-bind:block="false" color="" v-bind:snapX="false"
+          v-bind:snapY="false" theme="theme--light01" v-bind:squared="false" variant="primary" position="absolute"
+          v-bind:isEnabled="true" background="" borderColor="" ncTypography="custom" v-bind:resetTrigger="false"
+          ncTooltipText="" verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="0.134NS"
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="0.048NS" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" ncDisableBorderColor="transparent"
+          ncClickBackgroundColor="#4285f4" ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4"
+          ncDisableBackgroundColor="#969696" id="76aeb32a-6f8f-4202-8593-66d43fdb8973"
+          v-bind:style="{'width':'152.95px','height':'28.5px','zIndex':7,'fontSize':'15.2px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'normal','lineHeight':'0.9974999999999998','marginLeft':'','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','paddingBottom':'','borderTopWidth':'0.7124999999999999px','textDecoration':'none','borderLeftWidth':'0.7124999999999999px','borderRightWidth':'0.7124999999999999px','horizontalHeight':'26.74347375px','borderBottomWidth':'0.7124999999999999px','borderTopLeftRadius':'2.8499999999999996px','borderTopRightRadius':'2.8499999999999996px','borderBottomLeftRadius':'2.8499999999999996px','borderBottomRightRadius':'2.8499999999999996px'}"/>
+        <WLabel top="21.49174528301887%" left="13.637786123032905%" text="Nucal Helps Teams Move Work Forward."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          nucalScaleWidth="" nucalScaleHeight="" id="1dc7f8ae-30d2-4310-ad07-742a6407054f"
+          v-bind:style="{'color':'#05153f','width':'570.9499999999999px','height':'31.349999999999998px','zIndex':8,'fontSize':'31.349999999999998px','maxWidth':'','minWidth':'','fontStyle':'','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'bold','lineHeight':'0.7124999999999999','marginLeft':'0px','paddingTop':'3.8px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':''}"/>
+        <WLabel top="48.9368366745283%" left="13.569608369098713%"
+          text="It’s more than work.It’s a way of working together." v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" position="absolute" ncTypography="custom" ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          nucalScaleWidth="" nucalScaleHeight="" id="91911efa-4fbb-4402-8911-1d8bb1e820c2"
+          v-bind:style="{'color':'#05153f','width':'549.1px','height':'27.549999999999997px','zIndex':9,'fontSize':'24.9375px','maxWidth':'','minWidth':'','fontStyle':'','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'bold','lineHeight':'0.7124999999999999','marginLeft':'0px','paddingTop':'3.8px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':''}"/>
+        <WButton tag="button" top="66.99955778301887%" left="13.562902360515022%" v-bind:pill="false" size="md"
+          text="Start doing" type="button" v-bind:block="false" color="" v-bind:snapX="false" v-bind:snapY="false"
+          theme="theme--light01" v-bind:squared="false" variant="primary" position="absolute" v-bind:isEnabled="true"
+          background="" borderColor="" ncTypography="custom" v-bind:resetTrigger="false" ncTooltipText=""
+          verticalWidth="60px"
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          textDecoration="none" verticalHeight="60px" horizontalWidth="72.4479px" nucalScaleWidth="0.101NS"
+          horizontalHeight="37.5347px" ncClickFontColor="#FFFFFF" ncFocusFontColor="#FFFFFF" ncHoverFontColor="#FFFFFF"
+          nucalScaleHeight="0.042NS" ncClickBorderColor="#4285f4" ncDisableFontColor="#FFFFFF"
+          ncFocusBorderColor="#4285f4" ncHoverBorderColor="#4285f4" ncDisableBorderColor="transparent"
+          ncClickBackgroundColor="#4285f4" ncFocusBackgroundColor="#4285f4" ncHoverBackgroundColor="#4285f4"
+          ncDisableBackgroundColor="#969696" id="0549c548-c17c-4bce-b72e-cbbb97f48412"
+          v-bind:style="{'width':'138.9375px','height':'32.775px','zIndex':10,'fontSize':'16.15px','maxWidth':'','minWidth':'','tabIndex':'0px','boxShadow':'','fontStyle':'normal','marginTop':'','maxHeight':'','minHeight':'','textAlign':'center','fontFamily':'OpenSans-Bold,Open Sans','fontWeight':'normal','lineHeight':'0.9974999999999998','marginLeft':'','paddingTop':'','textShadow':'','visibility':'visible','borderStyle':'solid','marginRight':'','paddingLeft':'','marginBottom':'','paddingRight':'','paddingBottom':'','borderTopWidth':'0.7124999999999999px','textDecoration':'none','borderLeftWidth':'0.7124999999999999px','borderRightWidth':'0.7124999999999999px','horizontalHeight':'26.74347375px','borderBottomWidth':'0.7124999999999999px','borderTopLeftRadius':'2.8499999999999996px','borderTopRightRadius':'2.8499999999999996px','borderBottomLeftRadius':'2.8499999999999996px','borderBottomRightRadius':'2.8499999999999996px'}"/>
+        <WLabel top="29.361364976415093%" left="13.642256795422032%"
+          text="Collaborate,manage projects,and reach new productivity peaks.From high rises to the home office,the way your team works is the way your team works is unique—accomplish it all with nuCal."
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          nucalScaleWidth="" nucalScaleHeight="" id="8bdac55c-f9b4-4e76-a67e-833f9ef1f5d9"
+          v-bind:style="{'color':'#09072d','width':'547.1999999999999px','height':'52.25px','zIndex':11,'fontSize':'14.25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9974999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+        <WLabel top="57.19155365566038%" left="13.569608369098713%" text="HELLO EVERYONE WELCOME TO MY PAGE"
+          v-bind:snapX="false" v-bind:snapY="false" theme="theme--light01" position="absolute" ncTypography="custom"
+          ncTooltipText=""
+          v-bind:nucalDataModel="{'type':'NSW','isList':false,'dynamic':false,'structure':[{'type':'string','propName':'text','displayName':'Value'}]}"
+          nucalScaleWidth="" nucalScaleHeight="" id="05f077ec-be6c-4ce1-be50-6b965391c2d0"
+          v-bind:style="{'color':'#09072d','width':'547.1999999999999px','height':'52.25px','zIndex':12,'fontSize':'14.25px','maxWidth':'','minWidth':'','fontStyle':'normal','marginTop':'0px','maxHeight':'','minHeight':'','textAlign':'left','fontFamily':'Roboto-Regular,Roboto','fontWeight':'normal','lineHeight':'0.9974999999999998','marginLeft':'0px','paddingTop':'0px','textShadow':'','visibility':'visible','marginRight':'0px','paddingLeft':'0px','marginBottom':'0px','paddingRight':'0px','paddingBottom':'0px','textDecoration':'none'}"/>
+      </NucGroupElement>
+    </NucGridCell>
+  </NucGridPage>
+</template>
+<script>
+export default {
+  name: 'Screen1',
+  data() {
+    return {};
+  },
+  props: {},
+  created() {},
+  mounted() {},
+  computed: {},
+  methods: {},
+  watch: {},
+};
+</script>
+
+<style scoped></style>
